@@ -2,8 +2,8 @@ package singleton.Przyklad;
 
 public class Main {
     public static void main(String[] args) {
-        Singleton s = Singleton.getInstancja();
-        s = Singleton.getInstancja();
-        s = Singleton.getInstancja();
+        Singleton s1 = Singleton.getInstancja();
+        Singleton s2 = Singleton.getInstancja();
+        Singleton s3 = Singleton.getInstancja();
     }
 }

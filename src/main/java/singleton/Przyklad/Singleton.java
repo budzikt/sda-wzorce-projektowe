@@ -8,6 +8,14 @@ public class Singleton {
     /*TU JEST WZORZEC*/
     private Singleton(){
         System.out.println("Tworze singleton, to trwa bardzo dlugo");
+        try {
+            Thread.sleep(2500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            System.out.println("Stworzono singleton");
+            return;
+        }
     }
 
     /*TU JEST WZORZEC*/
