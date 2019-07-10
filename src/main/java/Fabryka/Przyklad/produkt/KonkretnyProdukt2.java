@@ -1,4 +1,5 @@
-package Fabryka.Przyklad;
+package fabryka.przyklad.produkt;
+
 
 public class KonkretnyProdukt2 extends Produkt {
 

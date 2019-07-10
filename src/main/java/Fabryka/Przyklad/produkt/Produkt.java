@@ -1,4 +1,4 @@
-package Fabryka.Przyklad;
+package fabryka.przyklad.produkt;
 
 public abstract class Produkt {
     String nazwa;

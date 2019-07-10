@@ -16,4 +16,8 @@ public abstract class Zarowka {
         return typGwintu;
     }
 
+    public int getMoc() {
+        return moc;
+    }
+
 }

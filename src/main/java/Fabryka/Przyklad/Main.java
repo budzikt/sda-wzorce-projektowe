@@ -1,4 +1,7 @@
-package Fabryka.Przyklad;
+package fabryka.przyklad;
+
+import fabryka.przyklad.produkt.Produkt;
+import fabryka.przyklad.produkt.TypProduktu;
 
 import java.util.ArrayList;
 import java.util.List;

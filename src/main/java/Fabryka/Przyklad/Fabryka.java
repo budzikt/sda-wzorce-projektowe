@@ -1,4 +1,9 @@
-package Fabryka.Przyklad;
+package fabryka.przyklad;
+
+import fabryka.przyklad.produkt.KonkretnyProdukt1;
+import fabryka.przyklad.produkt.KonkretnyProdukt2;
+import fabryka.przyklad.produkt.Produkt;
+import fabryka.przyklad.produkt.TypProduktu;
 
 public class Fabryka {
     public Fabryka() {

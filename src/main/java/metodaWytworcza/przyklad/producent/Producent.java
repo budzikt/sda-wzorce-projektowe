@@ -4,6 +4,7 @@ import metodaWytworcza.przyklad.produkt.Product;
 
 public abstract  class Producent {
 
+    /*TU JEST WZORZEC*/
     private Product produkt;
 
     public Producent() {
