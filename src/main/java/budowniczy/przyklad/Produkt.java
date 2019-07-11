@@ -10,6 +10,12 @@ public class Produkt {
     private int pole4;
     private int pole5;
 
+    public void setPoleZawsze100(int poleZawsze100) {
+        this.poleZawsze100 = poleZawsze100;
+    }
+
+    private int poleZawsze100;
+
     public int getPole1() {
         return pole1;
     }

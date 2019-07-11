@@ -1,4 +1,4 @@
-package budowniczy.zadanie;
+package budowniczy.zadanie.budowniczy;
 
 public class BudowniczyVat extends Budowniczy{
 

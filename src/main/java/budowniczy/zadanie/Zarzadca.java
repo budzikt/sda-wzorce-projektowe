@@ -1,5 +1,7 @@
 package budowniczy.zadanie;
 
+import budowniczy.zadanie.budowniczy.Budowniczy;
+
 public class Zarzadca {
     private Budowniczy b;
 
@@ -16,12 +18,9 @@ public class Zarzadca {
         return this;
     }
 
-    public DaneOsobowe pobierzDaneOsobowe() {
-        return b.pobierzDaneOsobowe();
-    }
-
-    public Budowniczy dodajDaneOgolne(String imie, String nazwisko, Long pesel) {
-        return b.dodajDaneOgolne(imie, nazwisko, pesel);
+    public Zarzadca dodajDaneOgolne(String imie, String nazwisko, Long pesel) {
+        b.dodajDaneOgolne(imie, nazwisko, pesel);
+        return this;
     }
 
     public Zarzadca dodajDaneBiznesowe(String regon, Long nip) {
@@ -29,7 +28,12 @@ public class Zarzadca {
         return this;
     }
 
-    public Budowniczy dodajDaneOsobowe(String przezwisko) {
-        return b.dodajDaneOsobowe(przezwisko);
+    public Zarzadca dodajDaneOsobowe(String przezwisko) {
+        b.dodajDaneOsobowe(przezwisko);
+        return this;
+    }
+
+    public DaneOsobowe pobierzDaneOsobowe() {
+        return b.pobierzDaneOsobowe();
     }
 }

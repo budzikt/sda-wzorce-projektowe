@@ -1,4 +1,6 @@
-package budowniczy.zadanie;
+package budowniczy.zadanie.budowniczy;
+
+import budowniczy.zadanie.DaneOsobowe;
 
 public abstract class Budowniczy {
     protected DaneOsobowe prototyp;

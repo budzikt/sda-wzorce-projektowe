@@ -1,7 +1,7 @@
 package budowniczy.przyklad;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         Zarzadca z = new Zarzadca();
         BudowniczyNormalny b = new BudowniczyNormalny();
@@ -9,11 +9,14 @@ public class Main {
 
         Produkt p = z.zbudujMiProdukt();
         System.out.println(p.toString());
-        z.setBudowniczy(new BudowniczyRazyDwa());
-        p = z.zbudujMiProdukt();
+
+        p = z.zbudujMiProdukt(new int[] {8,3,6,2,7});
         System.out.println(p.toString());
 
+        z.setBudowniczy(new BudowniczyRazyDwa());
 
+        p = z.zbudujMiProdukt(new int[] {4,2,9,8,1});
+        System.out.println(p.toString());
 
     }
 }

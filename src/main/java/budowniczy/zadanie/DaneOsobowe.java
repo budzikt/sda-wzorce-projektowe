@@ -2,7 +2,7 @@ package budowniczy.zadanie;
 
 public class DaneOsobowe {
     private String name;
-    private  String surname;
+    private String surname;
     private Long NIP;
     private String REGON;
     private Long PESEL;
@@ -82,19 +82,27 @@ public class DaneOsobowe {
     @Override
     public String toString() {
         return new StringBuilder()
+                .append("Imie: ")
                 .append(this.name)
-                .append(" ")
+                .append("\n")
+                .append("Nazwisko: ")
                 .append(this.surname)
-                .append(" ")
+                .append("\n")
+                .append("Nick: ")
                 .append(this.nick)
-                .append(" ")
+                .append("\n")
+                .append("NIP: ")
                 .append(this.NIP)
-                .append(" ")
+                .append("\n")
+                .append("PESEL: ")
                 .append(this.PESEL)
-                .append(" ")
+                .append("\n")
+                .append("REGON: ")
                 .append(this.REGON)
-                .append(" ")
+                .append("\n")
+                .append("Vatowiec: ")
                 .append(this.VatPayer)
+                .append("\n---------\n")
                 .toString();
 
     }

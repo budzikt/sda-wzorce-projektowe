@@ -15,5 +15,10 @@ public abstract class BudowniczyAbstract {
 
     public abstract BudowniczyAbstract ustawPole5(int wartosc);
 
+    public BudowniczyAbstract ustawPole6() {
+        this.prototype.setPoleZawsze100(100);
+        return this;
+    }
+
     public abstract Produkt pobierzProdukt();
 }
