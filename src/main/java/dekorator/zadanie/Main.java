@@ -11,6 +11,7 @@ public class Main {
         Pizza pizzaSzynkaSer2 = new Ser(new Szyneczka(new PizzaImpl(19)));
 
         System.out.println(pizzaSzynkaSer.podajCene());
+        System.out.println(pizzaSzynkaSer.pobierzIloscSkladnikw());
         pizzaSzynkaSer.jakSmakuje();
 
         Pizza pizzaBezSera = new Szyneczka(new PizzaImpl(15));
