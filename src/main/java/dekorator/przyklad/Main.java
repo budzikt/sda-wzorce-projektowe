@@ -1,6 +1,6 @@
 package dekorator.przyklad;
 
-public class Test {
+public class Main {
     public static void main(String[] args) {
         Dekorowalny el = new Element(10);
         DekoratorKonkretny dk = new DekoratorKonkretny(5, el);
