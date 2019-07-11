@@ -1,7 +1,7 @@
 package fabrykaAbstrakcyjna.przyklad.produkty.listerka;
 
-import fabrykaAbstrakcyjna.przyklad.produkty.Element;
 import fabrykaAbstrakcyjna.przyklad.produkty.Material;
+import fabrykaAbstrakcyjna.przyklad.produkty.Element;
 
 public abstract class Lusterko extends Element {
 

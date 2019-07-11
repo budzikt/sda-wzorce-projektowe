@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         List<Produkt> listaProduktow = new ArrayList<Produkt>();
-        Fabryka f = new Fabryka();
+        FabrykaImpl f = new FabrykaImpl();
 
         try {
             Produkt p1 = f.utworzProdukt(TypProduktu.PRODUKT_1);

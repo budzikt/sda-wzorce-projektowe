@@ -78,4 +78,24 @@ public class DaneOsobowe {
     public void setNick(String nick) {
         this.nick = nick;
     }
+
+    @Override
+    public String toString() {
+        return new StringBuilder()
+                .append(this.name)
+                .append(" ")
+                .append(this.surname)
+                .append(" ")
+                .append(this.nick)
+                .append(" ")
+                .append(this.NIP)
+                .append(" ")
+                .append(this.PESEL)
+                .append(" ")
+                .append(this.REGON)
+                .append(" ")
+                .append(this.VatPayer)
+                .toString();
+
+    }
 }

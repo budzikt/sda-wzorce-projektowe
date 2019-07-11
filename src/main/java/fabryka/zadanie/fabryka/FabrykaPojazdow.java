@@ -3,7 +3,7 @@ package fabryka.zadanie.fabryka;
 import fabryka.zadanie.pojazd.Pojazd;
 import fabryka.zadanie.pojazd.Samochod;
 
-public class FabrykaPojazdow {
+public class FabrykaPojazdow extends Fabryka {
 
     public Pojazd buildPojazd(String kolor, PojazdType typ) {
         Pojazd p;

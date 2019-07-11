@@ -1,10 +1,10 @@
 package fabrykaAbstrakcyjna.przyklad.fabryki;
 
+import fabrykaAbstrakcyjna.przyklad.produkty.Material;
 import fabrykaAbstrakcyjna.przyklad.produkty.kola.Kolo;
+import fabrykaAbstrakcyjna.przyklad.produkty.kola.KoloTerenowe;
 import fabrykaAbstrakcyjna.przyklad.produkty.listerka.Lusterko;
 import fabrykaAbstrakcyjna.przyklad.produkty.listerka.LusterkoSportowe;
-import fabrykaAbstrakcyjna.przyklad.produkty.Material;
-import fabrykaAbstrakcyjna.przyklad.produkty.kola.KoloTerenowe;
 
 public class FabrykaTerenowa extends FabrykaAbstrakcyjna {
     @Override

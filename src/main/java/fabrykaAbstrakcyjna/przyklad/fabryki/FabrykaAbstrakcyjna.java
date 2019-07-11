@@ -1,8 +1,8 @@
 package fabrykaAbstrakcyjna.przyklad.fabryki;
 
 import fabrykaAbstrakcyjna.przyklad.produkty.Material;
-import fabrykaAbstrakcyjna.przyklad.produkty.kola.Kolo;
 import fabrykaAbstrakcyjna.przyklad.produkty.listerka.Lusterko;
+import fabrykaAbstrakcyjna.przyklad.produkty.kola.Kolo;
 
 public abstract class FabrykaAbstrakcyjna {
 
