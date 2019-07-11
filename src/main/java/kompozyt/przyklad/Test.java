@@ -1,6 +1,6 @@
 package kompozyt.przyklad;
 
-public class Test {
+public class  Test {
     public static void main(String[] args) {
 
         Komponent k = new KolekcjaElementow(1);

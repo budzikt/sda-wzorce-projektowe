@@ -1,4 +1,4 @@
-package adapter.przyklad.zadanie;
+package adapter.zadanie;
 
 public abstract class SystemCenowy {
 
