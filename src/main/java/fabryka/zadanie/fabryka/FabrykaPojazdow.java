@@ -1,5 +1,6 @@
 package fabryka.zadanie.fabryka;
 
+import fabryka.zadanie.PojazdType;
 import fabryka.zadanie.pojazd.Pojazd;
 import fabryka.zadanie.pojazd.Samochod;
 

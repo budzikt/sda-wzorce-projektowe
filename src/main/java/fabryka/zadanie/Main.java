@@ -1,7 +1,6 @@
 package fabryka.zadanie;
 
 import fabryka.zadanie.fabryka.FabrykaPojazdow;
-import fabryka.zadanie.fabryka.PojazdType;
 import fabryka.zadanie.pojazd.Pojazd;
 
 import java.util.Scanner;

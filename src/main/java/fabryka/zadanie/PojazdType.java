@@ -1,4 +1,4 @@
-package fabryka.zadanie.fabryka;
+package fabryka.zadanie;
 
 public enum PojazdType {
 
