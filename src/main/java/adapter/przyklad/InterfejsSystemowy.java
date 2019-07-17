@@ -1,5 +1,7 @@
 package adapter.przyklad;
 
 public abstract class InterfejsSystemowy {
-    public abstract double wyliczWartosc(int dlugoscWCm);
+
+    public abstract String wypiszDuzeLitery(String tekst);
+
 }
