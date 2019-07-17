@@ -1,7 +1,19 @@
 package mediator;
 
 public abstract class Kolega {
-    private Mediator mediator;
 
-    protected abstract void notifyMed();
+    protected Mediator mediator;
+
+    boolean stan;
+
+    public Kolega(Mediator mediator) {
+        this.mediator = mediator;
+    }
+
+    protected  void notifyMed() {
+        this.doAction();
+        this.mediator.mediate(this);
+    }
+
+    public abstract void doAction();
 }
