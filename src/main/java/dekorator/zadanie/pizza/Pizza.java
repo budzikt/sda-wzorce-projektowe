@@ -1,8 +1,7 @@
-package dekorator.zadanie;
+package dekorator.zadanie.pizza;
 
 public abstract class Pizza {
     protected int cena;
-    protected int liczbaSkladnikow;
 
     public abstract int podajCene();
     public abstract int pobierzIloscSkladnikw();

@@ -1,10 +1,9 @@
-package dekorator.zadanie;
+package dekorator.zadanie.pizza;
 
 public class PizzaImpl extends Pizza {
 
     public PizzaImpl(int basePrice) {
         this.cena = basePrice;
-        this.liczbaSkladnikow = 0;
     }
 
     @Override
@@ -14,6 +13,6 @@ public class PizzaImpl extends Pizza {
 
     @Override
     public int pobierzIloscSkladnikw() {
-        return this.liczbaSkladnikow;
+        return 1;
     }
 }
