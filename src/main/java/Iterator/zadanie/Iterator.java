@@ -1,4 +1,4 @@
-package Iterator;
+package Iterator.zadanie;
 
 public abstract class Iterator {
     public abstract boolean maKolejnyElement();

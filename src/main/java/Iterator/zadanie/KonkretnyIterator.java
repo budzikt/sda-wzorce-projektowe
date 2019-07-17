@@ -1,4 +1,4 @@
-package Iterator;
+package Iterator.zadanie;
 
 public class KonkretnyIterator extends Iterator {
 

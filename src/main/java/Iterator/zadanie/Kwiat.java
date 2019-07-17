@@ -1,9 +1,9 @@
-package Iterator;
+package Iterator.zadanie;
 
-public class Iterable {
+public class Kwiat {
     Kolor kolor;
 
-    public Iterable() {
+    public Kwiat() {
         double rand = Math.random();
         if(rand > 0.5) {
             kolor = Kolor.BIALE;

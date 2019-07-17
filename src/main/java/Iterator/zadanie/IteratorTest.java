@@ -1,4 +1,4 @@
-package Iterator;
+package Iterator.zadanie;
 
 public class IteratorTest {
     public static void main(String[] args) {
