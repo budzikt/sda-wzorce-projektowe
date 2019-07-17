@@ -1,4 +1,4 @@
-package kompozyt.przyklad.zadanie;
+package kompozyt.zadanie;
 
 public class Main {
     public static void main(String[] args) {

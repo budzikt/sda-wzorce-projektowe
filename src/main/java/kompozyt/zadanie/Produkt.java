@@ -1,4 +1,4 @@
-package kompozyt.przyklad.zadanie;
+package kompozyt.zadanie;
 
 public abstract class Produkt extends Komponent {
     @Override

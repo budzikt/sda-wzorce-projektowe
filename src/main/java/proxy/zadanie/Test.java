@@ -1,7 +1,5 @@
 package proxy.zadanie;
 
-import kompozyt.przyklad.zadanie.Produkt;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

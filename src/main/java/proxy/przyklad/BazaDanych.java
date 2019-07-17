@@ -14,7 +14,8 @@ public class BazaDanych implements OperacjaIfc {
     }
 
     @Override
-    public void usunWszystko() {
+    public boolean usunWszystko() {
         this.users = 0;
+        return true;
     }
 }

@@ -1,4 +1,4 @@
-package kompozyt.przyklad.zadanie;
+package kompozyt.zadanie;
 
 public abstract class Komponent {
     public abstract Komponent pobierzDziecko(int idx);

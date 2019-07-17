@@ -1,9 +1,10 @@
-package kompozyt.przyklad.zadanie;
+package kompozyt.zadanie;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Karton extends Komponent {
+
     private List<Komponent> listaKomponentow;
     private int id;
 

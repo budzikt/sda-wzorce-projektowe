@@ -7,7 +7,16 @@ public class Test {
         BazaDanych db = new BazaDanych(500);
         ProxyBazyDanych proxy = new ProxyBazyDanych(db);
 
-        System.out.println(proxy.pobierzLiczbeUzytkownikow());
-        proxy.usunWszystko();
+        int tries = 3;
+
+        while(tries != 0) {
+            System.out.println(proxy.pobierzLiczbeUzytkownikow());
+            if(!proxy.usunWszystko()) {
+                tries--;
+            } else {
+                break;
+            }
+        }
+
     }
 }
