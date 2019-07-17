@@ -1,4 +1,4 @@
-package most.przyklad.Zadanie2;
+package most.Zadanie2;
 
 public class Silnik2018 extends Silnik {
     public Silnik2018(int cylindry, int pojemnosc) {

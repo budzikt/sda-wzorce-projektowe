@@ -1,4 +1,4 @@
-package most.przyklad.Zadanie1;
+package most.Zadanie1;
 
 public abstract class Ksztalt {
     private float wysokosc;

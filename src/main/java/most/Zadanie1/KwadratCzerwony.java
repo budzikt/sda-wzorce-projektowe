@@ -1,4 +1,4 @@
-package most.przyklad.Zadanie1;
+package most.Zadanie1;
 
 public class KwadratCzerwony extends KsztaltCzerowny {
     public KwadratCzerwony(float wysokosc, float szerokosc) {

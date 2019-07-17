@@ -1,4 +1,4 @@
-package most.przyklad.Zadanie2;
+package most.Zadanie2;
 
 public abstract class Silnik {
     protected int cylindry;

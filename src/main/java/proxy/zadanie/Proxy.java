@@ -6,7 +6,6 @@ public class Proxy implements BarIfc {
 
     private Bar prawdziwyBar;
 
-    private List<String> listaUzytkownikow;
     private char security;
 
     public Proxy(Bar bar) {
@@ -20,6 +19,7 @@ public class Proxy implements BarIfc {
 
     @Override
     public boolean wypijPiwo(String imie) {
+
         this.prawdziwyBar.wypijPiwo(imie);
         return true;
     }

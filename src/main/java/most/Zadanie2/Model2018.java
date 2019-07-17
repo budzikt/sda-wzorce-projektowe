@@ -1,4 +1,4 @@
-package most.przyklad.Zadanie2;
+package most.Zadanie2;
 
 public class Model2018 extends Samochod {
     public Model2018(Silnik silnik) {

@@ -15,9 +15,7 @@ public class Test {
 
         for(String name: wchodzacy) {
             if(!barProxy.wypijPiwo(name)) {
-                break;
-            } else {
-                System.out.println(name + " wypija piwo");
+                System.out.println(name + ": Tobie nie wolno wejść!");
             }
         }
 
