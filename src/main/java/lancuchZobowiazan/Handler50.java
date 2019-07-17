@@ -7,7 +7,11 @@ public class Handler50 extends Handler {
         if(predkosc < 50) {
             return "Uwaga zwolnij ";
         } else {
-            return nastepny.obsluz(predkosc);
+            if(this.nastepny != null) {
+                return nastepny.obsluz(predkosc);
+            } else {
+                return ":(";
+            }
         }
     }
 }
