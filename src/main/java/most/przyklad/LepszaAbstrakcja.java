@@ -6,4 +6,9 @@ public class LepszaAbstrakcja extends Abstrakcja {
         super(impl);
     }
 
+    @Override
+    protected String przedstawKlase() {
+        return "Jestem klasa LepszaAbstrakcja i";
+    }
+
 }

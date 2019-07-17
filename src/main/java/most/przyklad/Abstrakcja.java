@@ -9,7 +9,7 @@ public abstract class Abstrakcja {
     }
 
     public String zrobCosFajnego() {
-        return this.impl.wykonaj();
+        return this.przedstawKlase() + this.impl.wykonaj();
     }
 
     public void setImpl(Implementacja impl) {
@@ -19,4 +19,6 @@ public abstract class Abstrakcja {
     public Implementacja getImpl() {
         return impl;
     }
+
+    protected abstract String przedstawKlase();
 }
