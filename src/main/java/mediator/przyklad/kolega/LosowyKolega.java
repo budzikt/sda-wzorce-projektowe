@@ -1,10 +1,12 @@
-package mediator;
+package mediator.przyklad.kolega;
 
-public class KonkretnyKolega extends Kolega {
+import mediator.przyklad.mediator.Mediator;
+
+public class LosowyKolega extends Kolega {
 
     private float szansa;
 
-    public KonkretnyKolega(float szansa, Mediator m) {
+    public LosowyKolega(float szansa, Mediator m) {
         super(m);
         this.szansa = szansa;
     }
@@ -17,6 +19,5 @@ public class KonkretnyKolega extends Kolega {
             this.stan = false;
         }
         System.out.println("Moj stan to: " + this.stan);
-        this.mediator.mediate(this);
     }
 }

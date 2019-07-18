@@ -2,7 +2,7 @@ package metodaSzablonowa.przyklad.template;
 
 public abstract class AbstractTemplate {
 
-    public void doTheJob() {
+    public final void doTheJob() {
         this.part1();
         this.part2();
         this.part3();

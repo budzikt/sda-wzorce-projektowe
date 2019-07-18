@@ -1,4 +1,4 @@
-package lancuchZobowiazan;
+package lancuchZobowiazan.zadanie;
 
 public class LancuchTest {
     public static void main(String[] args) {
