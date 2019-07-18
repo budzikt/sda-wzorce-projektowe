@@ -1,4 +1,4 @@
-package obserwator;
+package obserwator.zadanie;
 
 public class TwitterObservator extends Obserwator {
 
