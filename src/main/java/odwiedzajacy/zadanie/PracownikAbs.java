@@ -1,4 +1,4 @@
-package odwiedzajacy;
+package odwiedzajacy.zadanie;
 
 public abstract class PracownikAbs {
     int zarobkiNaRok;

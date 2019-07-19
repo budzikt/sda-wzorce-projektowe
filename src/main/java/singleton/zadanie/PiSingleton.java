@@ -2,7 +2,9 @@ package singleton.zadanie;
 
 public class PiSingleton {
 
-        private PiSingleton() {
+    private float Pi;
+
+    private PiSingleton() {
 
     }
 

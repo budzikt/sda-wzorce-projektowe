@@ -1,39 +1,41 @@
-package budowniczy.przyklad;
+package budowniczy.przyklad.budowniczy;
 
-public class BudowniczyRazyDwa extends BudowniczyAbstract {
+import budowniczy.przyklad.Produkt;
+
+public class BudowniczyRazyDwa extends Budowniczy {
 
     @Override
-    public BudowniczyAbstract utworz() {
+    public Budowniczy utworz() {
         prototype = new Produkt();
         return this;
     }
 
     @Override
-    public BudowniczyAbstract ustawPole1(int wartosc) {
+    public Budowniczy ustawPole1(int wartosc) {
         prototype.setPole1(wartosc * 2);
         return this;
     }
 
     @Override
-    public BudowniczyAbstract ustawPole2(int wartosc) {
+    public Budowniczy ustawPole2(int wartosc) {
         prototype.setPole2(wartosc * 2);
         return this;
     }
 
     @Override
-    public BudowniczyAbstract ustawPole3(int wartosc) {
+    public Budowniczy ustawPole3(int wartosc) {
         prototype.setPole3(wartosc * 2);
         return this;
     }
 
     @Override
-    public BudowniczyAbstract ustawPole4(int wartosc) {
+    public Budowniczy ustawPole4(int wartosc) {
         prototype.setPole4(wartosc * 2);
         return this;
     }
 
     @Override
-    public BudowniczyAbstract ustawPole5(int wartosc) {
+    public Budowniczy ustawPole5(int wartosc) {
         prototype.setPole5(wartosc * 2);
         return this;
     }

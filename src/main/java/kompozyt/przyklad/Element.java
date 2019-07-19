@@ -2,10 +2,15 @@ package kompozyt.przyklad;
 
 public class Element extends Komponent {
 
+    private String nazwa;
+
+    public Element(String nazwa) {
+        this.nazwa = nazwa;
+    }
 
     @Override
     public Komponent pobierzDziecko(int idx) {
-        return null;
+        return this;
     }
 
     @Override
@@ -20,6 +25,6 @@ public class Element extends Komponent {
 
     @Override
     public String wykonajAkcje() {
-        return "Wykonuje akcje na końcowym elemencie!";
+        return "Wykonuje akcje na końcowym elemencie o nazwie " + this.nazwa;
     }
 }

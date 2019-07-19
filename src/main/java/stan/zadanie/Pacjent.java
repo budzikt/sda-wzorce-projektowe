@@ -1,4 +1,4 @@
-package stan;
+package stan.zadanie;
 
 public class Pacjent {
     private Stan stan;

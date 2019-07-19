@@ -1,4 +1,4 @@
-package stan;
+package stan.zadanie;
 
 public class Zdrowy extends Stan {
     public String mow() {

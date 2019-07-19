@@ -1,5 +1,8 @@
 package budowniczy.przyklad;
 
+import budowniczy.przyklad.budowniczy.BudowniczyNormalny;
+import budowniczy.przyklad.budowniczy.BudowniczyRazyDwa;
+
 public class Main {
     public static void main(String[] args) throws Exception {
 

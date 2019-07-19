@@ -13,11 +13,6 @@ public class Zarzadca {
         this.b = b;
     }
 
-    public Zarzadca dodajDaneOsobowe(String imie, String nazwisko, Long pesel) {
-        b.dodajDaneOgolne(imie, nazwisko, pesel);
-        return this;
-    }
-
     public Zarzadca dodajDaneOgolne(String imie, String nazwisko, Long pesel) {
         b.dodajDaneOgolne(imie, nazwisko, pesel);
         return this;

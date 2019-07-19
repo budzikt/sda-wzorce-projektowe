@@ -4,12 +4,12 @@ public class  Test {
     public static void main(String[] args) {
 
         Komponent k = new KolekcjaElementow(1);
-        k.dodajDziecko(new Element());
-        k.dodajDziecko(new Element());
+        k.dodajDziecko(new Element("A"));
+        k.dodajDziecko(new Element("B"));
 
         Komponent podKomponent = new KolekcjaElementow(2);
-        podKomponent.dodajDziecko(new Element());
-        podKomponent.dodajDziecko(new Element());
+        podKomponent.dodajDziecko(new Element("C"));
+        podKomponent.dodajDziecko(new Element("D"));
 
         k.dodajDziecko(podKomponent);
 

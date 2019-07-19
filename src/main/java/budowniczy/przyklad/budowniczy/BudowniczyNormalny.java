@@ -1,6 +1,8 @@
-package budowniczy.przyklad;
+package budowniczy.przyklad.budowniczy;
 
-public class BudowniczyNormalny extends BudowniczyAbstract {
+import budowniczy.przyklad.Produkt;
+
+public class BudowniczyNormalny extends Budowniczy {
 
 
 

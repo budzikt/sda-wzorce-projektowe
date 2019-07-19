@@ -3,6 +3,7 @@ package dekorator.zadanie.dekoratory;
 import dekorator.zadanie.pizza.Pizza;
 
 public abstract class DekoratorPizzy extends Pizza {
+
     protected Pizza element;
     protected int cena;
 
@@ -13,11 +14,11 @@ public abstract class DekoratorPizzy extends Pizza {
 
     @Override
     public int podajCene() {
-        return this.element.podajCene() + this.cena;
+        return 0;
     }
 
     @Override
     public int pobierzIloscSkladnikw() {
-        return this.element.pobierzIloscSkladnikw() + 1;
+        return 0;
     }
 }

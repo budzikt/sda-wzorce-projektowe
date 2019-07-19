@@ -4,12 +4,9 @@ import dekorator.zadanie.pizza.Pizza;
 
 public class Ser extends DekoratorPizzy {
 
-
-
     public Ser(Pizza pizza, int cena) {
         super(pizza, cena);
     }
-
 
     @Override
     public void jakSmakuje() {

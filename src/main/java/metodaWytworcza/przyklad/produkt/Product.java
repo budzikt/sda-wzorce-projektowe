@@ -11,12 +11,4 @@ public abstract class Product {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String przedstawSie() {
-        return getName();
-    }
-
 }

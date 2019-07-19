@@ -1,9 +1,11 @@
 package budowniczy.przyklad;
 
-public class Zarzadca {
-    private BudowniczyAbstract budowniczy;
+import budowniczy.przyklad.budowniczy.Budowniczy;
 
-    public void setBudowniczy(BudowniczyAbstract bud) {
+public class Zarzadca {
+    private Budowniczy budowniczy;
+
+    public void setBudowniczy(Budowniczy bud) {
         this.budowniczy = bud;
     }
 

@@ -6,6 +6,7 @@ import fabryka.zadanie.pojazd.Pojazd;
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
         boolean run = true;
         FabrykaPojazdow fabryka = new FabrykaPojazdow();

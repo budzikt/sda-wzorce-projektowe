@@ -1,4 +1,4 @@
-package odwiedzajacy;
+package odwiedzajacy.zadanie;
 
 public class OdiwedzajactTest {
     public static void main(String[] args) {
