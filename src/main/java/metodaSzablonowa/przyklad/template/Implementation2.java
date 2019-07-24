@@ -14,5 +14,6 @@ public class Implementation2 extends AbstractTemplate {
     @Override
     public void part2() {
         System.out.println("Czesc 2 z klasy Implementation2 - NADPISANA");
+        super.part2();
     }
 }

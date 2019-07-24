@@ -13,4 +13,14 @@ public class Ser extends DekoratorPizzy {
         super.jakSmakuje();
         System.out.println(" i bardzo sie ciagnie\n");
     }
+
+    @Override
+    public int podajCene() {
+        return this.element.podajCene() + this.cena;
+    }
+
+    @Override
+    public int pobierzIloscSkladnikw() {
+        return this.element.pobierzIloscSkladnikw()+ 1;
+    }
 }

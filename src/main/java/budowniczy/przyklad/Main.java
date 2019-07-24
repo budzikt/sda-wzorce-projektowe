@@ -21,5 +21,9 @@ public class Main {
         p = z.zbudujMiProdukt(new int[] {4,2,9,8,1});
         System.out.println(p.toString());
 
+        z.setBudowniczy(b);
+        p = z.zbudujMiProdukt(new int[] {4,2,9,8,1});
+        System.out.println(p.toString());
+
     }
 }

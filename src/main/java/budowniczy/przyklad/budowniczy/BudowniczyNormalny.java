@@ -4,8 +4,6 @@ import budowniczy.przyklad.Produkt;
 
 public class BudowniczyNormalny extends Budowniczy {
 
-
-
     public BudowniczyNormalny utworz() {
         this.prototype = new Produkt();
         return this;

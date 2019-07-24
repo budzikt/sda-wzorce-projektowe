@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         List<Produkt> listaProduktow = new ArrayList<Produkt>();
-        FabrykaImpl f = new FabrykaImpl();
+        Fabryka f = new FabrykaImpl();
 
         try {
             Produkt p1 = f.utworzProdukt(TypProduktu.PRODUKT_1);
@@ -19,8 +19,8 @@ public class Main {
             listaProduktow.add(p2);
 
             /*Boom*/
-            // Produkt p3 = f.utworzProdukt(TypProduktu.TEGO_JESZCZE_NIE_MAMY);
-            //listaProduktow.add(p3);
+//            Produkt p3 = f.utworzProdukt(TypProduktu.TEGO_JESZCZE_NIE_MAMY);
+//            listaProduktow.add(p3);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

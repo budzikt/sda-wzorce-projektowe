@@ -12,5 +12,9 @@ public class Main {
         s.addObserver(o2);
 
         s.notifyAllObservers(5);
+        s.notifyAllObservers(6);
+        s.notifyAllObservers(10);
+        s.notifyAllObservers(2);
+        s.notifyAllObservers(1000);
     }
 }

@@ -9,12 +9,12 @@ public class Produkt {
     private int pole3;
     private int pole4;
     private int pole5;
+    private int poleZawsze100;
 
     public void setPoleZawsze100(int poleZawsze100) {
         this.poleZawsze100 = poleZawsze100;
     }
 
-    private int poleZawsze100;
 
     public int getPole1() {
         return pole1;
@@ -62,7 +62,8 @@ public class Produkt {
 
     @Override
     public String toString() {
-        return new StringBuilder().append(pole1)
+        return new StringBuilder()
+                .append(pole1)
                 .append(" ")
                 .append(pole2)
                 .append(" ")

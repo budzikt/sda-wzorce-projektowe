@@ -17,6 +17,6 @@ public class DekoratorKonkretny extends Dekorator {
 
     @Override
     public int pobierzCene() {
-        return this.cena + super.pobierzCene();
+        return this.cena + this.dekorowanyElement.pobierzCene();
     }
 }

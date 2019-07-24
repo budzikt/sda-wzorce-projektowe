@@ -1,14 +1,14 @@
 package singleton.zadanie;
 
-public class PiSingleton {
+public class SingletonPi {
 
     private float Pi;
 
-    private PiSingleton() {
+    private SingletonPi() {
 
     }
 
-    public static PiSingleton getInstance() throws Exception {
+    public static SingletonPi getInstance() throws Exception {
         return null;
     }
 
